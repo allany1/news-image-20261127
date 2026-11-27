@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""Entry point for the news-image bounty.
+"""Entry point for the news-image bounty (2026-11-27 edition).
 
-Finds the single PNG in this repository's root, copies it to
-/output/entry.png, and proves the copy is stable by hashing the output
-twice and requiring both digests to agree. Standard library only.
+Finds the single PNG in this repository's root — entry.png, the
+finished front page — copies it to /output/entry.png, and proves the
+copy is stable by hashing the output twice and requiring both digests
+to agree. Standard library only, so it runs in the grading sandbox
+exactly as it runs here.
 """
 
 import hashlib
